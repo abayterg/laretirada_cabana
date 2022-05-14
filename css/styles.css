@@ -1,0 +1,228 @@
+/* HTML ELEMENTS */
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+/* headings */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* TITLE */
+
+/* NAVBAR */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-link:hover{
+  color:  grey;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: black;
+  line-height: 1.5;
+}
+.navbar-brand:hover{
+  color:grey;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  color: black;
+  font-weight: lighter;
+}
+
+#title{
+  background-color: #EFFFFD;
+}
+.titl{
+  padding-bottom: 0;
+}
+.dbtn{
+  margin: 5% 3% 5% 0;
+}
+.foto{
+  display: block;
+  max-width: 90%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(5deg);
+
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* FEATURES */
+#features{
+  background-color: #CAF0F8;
+  font-size: 0.8rem;
+  padding: 3% 15% 0 15%;
+}
+.ic:hover{
+color: #0AA1DD;
+}
+.ic{
+  display: inline-block;
+    width: 100%;
+
+text-align: center;
+}
+.features-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+
+#media{
+  padding: 0;
+  background-color: #CAF0F8;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+  background-color: #00B4D8;
+  color: white;
+}
+
+.test{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+
+.carousel-item{
+  padding: 3% 15%;
+}
+
+.pp{
+  width: 10%;
+  border-radius: 100%
+}
+
+/* PRESS */
+
+#press{
+  padding: 3% 15%;
+  background-color: #CAF0F8;
+}
+
+.presspic{
+width: 70%;
+height: auto;
+}
+
+/* PRICING */
+
+#pricing{
+  background-color: #EFFFFD;
+  font-size: 0.8rem;
+  padding: 3% 15%;
+}
+.price_text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 5%;
+}
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 5%;
+}
+.card-header{
+  background-color: #CAF0F8;
+}
+.card-footer{
+  background-color: #CAF0F8;
+}
+.price-header{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 5px;
+}
+.price-desc{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1%;
+}
+.pprice{
+  padding-bottom: 3%;
+}
+
+/* CALL TO ACTION */
+
+#cta{
+  background-color: #00B4D8;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.cta-header1{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1%;
+}
+.cta-header2{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 5px;
+}
+.dbtn2{
+  margin: 1%;
+}
+
+/* FOOTER */
+
+#footer{
+  background-color: #CAF0F8;
+  margin-bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width:1000px){
+  iframe{
+    width:80%;
+    margin-bottom: 0;
+  }
+  .foto{
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  #press{
+    text-align: center;x: ;
+  }
+  .presspic{
+  width: 40%;
+  height: auto;
+  margin-bottom: 5%
+  }
+  .card{
+    margin-bottom: 5%;
+  }
+h2{
+  font-size: 2rem;
+}
+}
